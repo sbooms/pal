@@ -1,0 +1,22 @@
+"p.mysql": [
+   {
+    "binding_name": null,
+    "credentials": {
+     "hostname": "q-n3s3y1.q-g27836.bosh",
+     "jdbcUrl": "jdbc:mysql://q-n3s3y1.q-g27836.bosh:3306/service_instance_db?user=a08aa6d7537048498863be711f982aaf\u0026password=6unhye2efawmedwc\u0026useSSL=false",
+     "name": "service_instance_db",
+     "password": "6unhye2efawmedwc",
+     "port": 3306,
+     "uri": "mysql://a08aa6d7537048498863be711f982aaf:6unhye2efawmedwc@q-n3s3y1.q-g27836.bosh:3306/service_instance_db?reconnect=true",
+     "username": "a08aa6d7537048498863be711f982aaf"
+    },
+    "instance_name": "tracker-database",
+    "label": "p.mysql",
+    "name": "tracker-database",
+    "plan": "db-small",
+    "provider": null,
+    "syslog_drain_url": null,
+    "tags": [
+     "mysql"
+    ],
+
